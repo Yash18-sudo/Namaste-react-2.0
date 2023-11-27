@@ -1,0 +1,44 @@
+    Learnings of Episode 03 - Laying the foundation 
+    
+    🔵 Create your own scripts such as  "start": "parcel index.html" using package.json now we can use 
+       npm run start  instead of  npx parcel index.html
+
+    🔵 React can be written without JSX also but JSX make developers life easy, JSX is seperate and React is seperate 
+    🔵 React.createElement was used but it will create mess so we use JSX to make it easy to write,understand
+    🔵 babel is a js compiler or transpiler https://babeljs.io/
+
+
+
+    🔵 Use camelCase to give attributes in JSX
+    🔵 use () for multiple line jsx code
+    🔵 React components
+       -class based components -OLD
+       -functional components -NEW
+         -A function returning jsx element is a functional component
+    🔵Always name functional components as HeadingComponent capital letter first
+    🔵 componenet inside a componenet is called component composition
+    🔵 we can use normal function and arrow function both to create functional components
+
+    🔵Visit
+     script.js form more information
+    
+    🟢Ways to render functional components
+      🟢root.render(<HeadingComponent/>);
+      🟢root.render(<HeadingComponent/>);
+     
+
+
+
+    🟢const fn = ()=>true;//for single line
+
+    🟢const fn2 = ()=>{ //for multiple lines
+        return true;
+       };
+    --Above both functions are same either we can use return or not but remember {}
+    
+     
+🟢 const HeadingComponent = () => ( //remeber this is not curly brackets
+    <div id="container">
+            <h1 className="heading">Namaste React functional component</h1>
+    </div>
+);

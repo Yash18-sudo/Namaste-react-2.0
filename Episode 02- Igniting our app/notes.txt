@@ -1,0 +1,42 @@
+    Learnings of Episode 02 - Igniting our app 
+
+    🔵npm init 
+      now we have package.json
+
+      setup bundler =  npm install -D parcel (dev dependencies)
+      we have parcel installed which is a bundler
+      now we have node_modules installed, package-lock.json
+
+    🔵to run npx parcel index.html(entry point)
+    🔵to build npx parcel build index.html
+
+    🔵 installing react and react-dom and removed cdn links
+
+    🔵 transitive dependencies - when we install a package it uses some other packages and they might use some other packages so these dependencies are saved in node modules and their metadata in package-lock.json and all these dependencies are  called transitive dependencies.
+
+    🔵 every dependency has its own package.json can be seen in node_modules
+    🔵 always add node_modules in .gitignore
+    🔵 all node_modules can be get back by just npm install 
+    🔵 now add browserlists to make our code compatible with previous browser versions
+        visit: https://browserslist.dev/  for more browser versions info
+
+    🟢Parcel(A beast)
+      -Dev build
+      -Local Server
+      -Hot Module Replacement (HMR)
+      -File Watching Algorithm - written in C++
+      -Caching - Faster Builds
+      -Image Optimization
+      -Minification
+      -Bundling
+      -Compressing
+      -Consistent Hashing
+      -Code Splitting
+      -Differential Bundling - supports older browser versions
+      -Beautiful Diagnostics
+      -Error Handling
+      -Host on HTTPS
+      -Tree shaking - remove unused code
+Read Parcel docs for more https://parceljs.org/
+
+     
