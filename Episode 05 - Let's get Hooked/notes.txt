@@ -1,0 +1,17 @@
+Learnings of Episode 05 - Let's get Hooked
+
+🟢There are 2 types of export
+
+    1- export default component
+        this can be imported as import component from ./path
+
+        **each component can have only one export default component**
+
+    2- named export
+        example = export let x = abc
+         this can be imported as import {x} from ./path
+
+🟢React Hooks
+
+    1-UseState()  -- Gives superpowerful state Variables
+    2-UseEffect()
