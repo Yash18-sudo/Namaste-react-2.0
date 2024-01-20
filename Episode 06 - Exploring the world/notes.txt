@@ -1,0 +1,19 @@
+Learnings of Episode 06 - Exploring the world
+
+🟢Monolithic Architecture vs Microservices 
+
+🟢There are Two ways to populate data in the UI
+    1- LOADS UI --> API CALL(wait for data) --> RENDER
+
+    2- LOADS UI --> RENDER --> API CALL --> RE-RENDER
+        this approach is better than the 1st one and provides better UX
+
+**************HOOKS ARE JUST FUNCTIONS THAT PROVIDE SOME FUNCTIONALITY FOR SPECIFIC USE CASES***
+
+🟢 USE-EFFECT HOOK
+   useEffect( arg1, arg2 ) 
+   arg1 = is a callback function ()=>{}
+   arg2 = is a dependecy array []       
+
+🟢 CORS Policy
+🟢 Shimmer-UI

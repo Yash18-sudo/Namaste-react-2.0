@@ -1,0 +1,35 @@
+Learnings of Episode 07 - Finding the path
+
+🟢 USE-EFFECT HOOK
+   useEffect( arg1, arg2 ) 
+   arg1 = is a callback function ()=>{}
+   arg2 = is a dependecy array []        <== this is an optional argument
+
+if dependecy array is empty useEffect is called only once
+if dependecy array is not given i.e no arg2 so useEffect renders every time
+
+🟢 Creating Routes Using React-router-DOM
+
+  🔵 createBrowserRouter = helps in creating routes
+
+      Example : const appRouter = createBrowserRouter([
+    {
+        path:"/",
+        element:<AppLayout/>,
+        errorElement:<Error/> 
+    }]
+
+   --errorElement:<Error/>   is used to render the Not available page or route 
+
+  -- import { useRouteError } from "react-router-dom";  is used in Error.js It is a hook to show Error details 
+  -- const Error = useRouteError();
+
+  -- this above function Provides an Object which shares Error details and we can use it in our Error Component i.e. Error.js
+
+   🔵 RouterProvider = helps in rendering the respective routes
+
+       -- Example : root.render(<RouterProvider router={appRouter}/>);
+
+🟢 There are 2 types of routing
+   --Client Side routing
+   --Server Side routing      
