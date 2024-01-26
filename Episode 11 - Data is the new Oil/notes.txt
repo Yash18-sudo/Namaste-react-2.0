@@ -1,0 +1,12 @@
+Learnings of Episode 11 - Data is the new Oil
+
+🟢 Higher order Component
+ - It is a component that takes a component and returns a component
+    
+🟢 lifting the stateup
+🟢 Controlled and Un Controlled component
+
+🟢 props drilling
+🟢 User Context
+
+
