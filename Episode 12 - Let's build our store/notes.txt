@@ -1,0 +1,17 @@
+Learnings of Episode 12 
+
+
+# What is in the Episode 12
+  --Install @reduxjs/toolkit and React-redux 
+  --Build our Store
+  --Connect our Store to the App
+  --Slice (cartSlice)
+  --Dispatch(ACTION)
+  --Read the data using SELECTOR
+
+
+
+🟢 Redux Toolkit
+
+RTK Query
+
